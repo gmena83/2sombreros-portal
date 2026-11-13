@@ -1,0 +1,4 @@
+# Estado local del CLI de Netlify (no se versiona)
+.netlify/
+.DS_Store
+Thumbs.db

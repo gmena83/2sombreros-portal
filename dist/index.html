@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth bg-black">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auspicio Editorial B2B · "2 Sombreros para Impactar B2B" — humanB</title>
+    <meta name="description" content="Propuesta de auspicio corporativo para la primera edición del manual de campo «2 Sombreros para Impactar B2B: la Compra y la Venta» de Luis Felipe Meneses. Canje estratégico: su empresa recibe más del 145% de su aporte en talleres directivos y ejemplares.">
+
+    <!-- Open Graph / redes -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content='Auspicio Editorial B2B · "2 Sombreros para Impactar B2B" — humanB'>
+    <meta property="og:description" content="Auspicie la primera edición del manual de campo de Compra Local B2B. Reciba más del 145% de su aporte en talleres aplicados y ejemplares impresos y digitales.">
+    <meta property="og:image" content="https://humanb.cl/wp-content/uploads/2026/11/humanb-Libro-2-Sombreros-para-Impactar-B2B.jpg">
+    <meta property="og:locale" content="es_CL">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content='Auspicio Editorial B2B · "2 Sombreros para Impactar B2B"'>
+    <meta name="twitter:description" content="Canje estratégico de auspicio corporativo: más del 145% de retorno en talleres y ejemplares. humanB 2026.">
+    <meta name="twitter:image" content="https://humanb.cl/wp-content/uploads/2026/11/humanb-Libro-2-Sombreros-para-Impactar-B2B.jpg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif'],
+                        logo: ['Caveat', 'cursive'],
+                        mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
+                    },
+                    colors: {
+                        brand: {
+                            bg: '#000000', card: '#141414', elevated: '#1A1A1A', border: '#2A2A2A',
+                            primary: '#158596', secondary: '#5ca094', ux: '#4a7678', alert: '#FE5000',
+                            text: '#FFFFFF', muted: '#B0B0B0', subtle: '#888888'
+                        }
+                    },
+                    letterSpacing: { 'tightest': '-0.035em' }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color:#000; color:#fff; font-family:'Inter',sans-serif; -webkit-font-smoothing:antialiased; overflow-x:hidden; }
+        .bento-card { background:#141414; border:1px solid #2A2A2A; transition:border-color .25s ease, transform .25s ease; }
+        .bento-card:hover { border-color:rgba(21,133,150,.75); }
+        .bento-featured { background:#141414; border:1.5px solid #158596; box-shadow:0 0 36px -8px rgba(21,133,150,.28); }
+        ::-webkit-scrollbar { height:5px; width:6px; }
+        ::-webkit-scrollbar-track { background:#000; }
+        ::-webkit-scrollbar-thumb { background:#2A2A2A; border-radius:3px; }
+        ::-webkit-scrollbar-thumb:hover { background:#158596; }
+        .reveal { opacity:0; transform:translateY(18px); transition:opacity .6s ease, transform .6s ease; }
+        .reveal.in { opacity:1; transform:none; }
+        @media (prefers-reduced-motion: reduce) { .reveal { opacity:1 !important; transform:none !important; transition:none; } }
+    </style>
+</head>
+<body class="bg-black text-white selection:bg-brand-primary selection:text-white min-h-screen flex flex-col relative">
+
+    <!-- Cuadrícula institucional sutil -->
+    <div class="fixed inset-0 z-0 bg-[linear-gradient(to_right,#141414_1px,transparent_1px),linear-gradient(to_bottom,#141414_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-30 pointer-events-none"></div>
+
+    <!-- =========================== HEADER =========================== -->
+    <header class="border-b border-brand-border bg-black/95 backdrop-blur-xl sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-3.5 flex items-center justify-between gap-4">
+            <a href="#inicio" class="flex items-center gap-3 shrink-0">
+                <img src="https://humanb.cl/wp-content/uploads/2026/06/cropped-logo-humanB-2048x2048-1.png"
+                     alt="Logotipo oficial humanB" class="h-8 w-auto object-contain brightness-110"
+                     onerror="this.style.display='none';document.getElementById('logo-fb').style.display='inline';">
+                <span id="logo-fb" class="font-logo text-3xl font-bold text-white hidden">humanB</span>
+                <span class="text-[11px] font-mono text-brand-subtle uppercase border-l border-brand-border pl-3 hidden md:inline">Portal de Auspicios · Primera Edición 2026</span>
+            </a>
+            <nav class="hidden lg:flex items-center gap-5 text-[11px] font-mono uppercase tracking-wider text-brand-muted">
+                <a href="#diagnostico" class="hover:text-white transition-colors">01. Diagnóstico</a>
+                <a href="#metodologia" class="hover:text-white transition-colors">02. Metodología</a>
+                <a href="#impacto" class="hover:text-white transition-colors">03. Impacto</a>
+                <a href="#niveles" class="text-brand-primary font-bold hover:text-white transition-colors">04. Niveles</a>
+                <a href="#fuentes" class="hover:text-white transition-colors">05. Fuentes</a>
+            </nav>
+            <a href="#niveles" class="px-4 py-2 rounded-lg bg-brand-primary hover:bg-brand-primary/85 text-white font-mono text-xs font-bold transition-colors shrink-0">Ver niveles</a>
+        </div>
+    </header>
+
+    <main id="inicio" class="relative z-10 max-w-6xl mx-auto px-6 pt-12 pb-24 space-y-24 flex-grow">
+
+        <!-- =========================== HERO =========================== -->
+        <section class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+            <div class="lg:col-span-7 space-y-6">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-alert/15 border border-brand-alert/40 text-brand-alert font-mono text-xs font-bold uppercase">
+                    <span class="w-1.5 h-1.5 rounded-full bg-brand-alert animate-pulse"></span>
+                    Etapa 1: Edición, Impresión y Lanzamiento
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black font-heading tracking-tightest leading-[1.08]">
+                    Deje de financiar inercia a 90 días.<br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-brand-secondary to-white">Blinde su cadena de suministro.</span>
+                </h1>
+                <p class="text-base sm:text-lg text-brand-muted leading-relaxed max-w-2xl">
+                    Propuesta de auspicio corporativo para editar e imprimir el primer tiraje de <strong class="text-white">1.000 ejemplares</strong> del manual de campo <strong class="text-white">"2 Sombreros para Impactar B2B: la Compra y la Venta"</strong> (Negocio a Negocio). Un canje estratégico donde su empresa recibe <strong class="text-brand-secondary">más del 145% de su aporte</strong> en talleres directivos, ejemplares impresos y licencias digitales para fortalecer a sus equipos y proveedores.
+                </p>
+                <div class="grid grid-cols-3 gap-3 pt-1 font-mono">
+                    <div class="bento-card p-4 rounded-xl">
+                        <div class="text-xl sm:text-2xl font-black text-white">1.000</div>
+                        <div class="text-[11px] text-brand-subtle uppercase mt-1 leading-tight">Ejemplares primer tiraje</div>
+                    </div>
+                    <div class="bento-card p-4 rounded-xl">
+                        <div class="text-xl sm:text-2xl font-black text-brand-primary">&gt; 145%</div>
+                        <div class="text-[11px] text-brand-subtle uppercase mt-1 leading-tight">Retorno en prestaciones</div>
+                    </div>
+                    <div class="bento-card p-4 rounded-xl">
+                        <div class="text-xl sm:text-2xl font-black text-brand-secondary">USD $25</div>
+                        <div class="text-[11px] text-brand-subtle uppercase mt-1 leading-tight">Valor unitario ejemplar</div>
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-4 pt-1">
+                    <a href="#niveles" class="px-6 py-3.5 rounded-xl bg-brand-primary hover:bg-brand-primary/85 text-white font-heading font-bold text-sm text-center transition-colors">Ver niveles de auspicio y retorno →</a>
+                    <a href="#diagnostico" class="px-6 py-3.5 rounded-xl bg-brand-elevated border border-brand-border hover:border-white text-brand-muted hover:text-white font-mono text-xs flex items-center justify-center transition-colors">Por qué este libro importa hoy</a>
+                </div>
+            </div>
+
+            <div class="lg:col-span-5">
+                <div class="bento-card rounded-2xl p-6 sm:p-8 flex flex-col items-center text-center space-y-5">
+                    <div class="w-full flex items-center justify-between text-xs font-mono text-brand-subtle border-b border-brand-border pb-3">
+                        <span>MANUAL DE CAMPO B2B</span>
+                        <span class="text-brand-secondary font-bold">EDICIÓN 2026</span>
+                    </div>
+                    <div class="relative w-full max-w-[320px] rounded-xl overflow-hidden border border-brand-border bg-black shadow-2xl">
+                        <img src="https://humanb.cl/wp-content/uploads/2026/11/humanb-Libro-2-Sombreros-para-Impactar-B2B.jpg"
+                             alt="Portada oficial del libro 2 Sombreros para Impactar B2B: la Compra y la Venta"
+                             width="320" height="453" class="w-full h-auto object-contain" loading="eager">
+                    </div>
+                    <div class="space-y-1.5 pt-1">
+                        <h2 class="text-lg font-extrabold text-white font-heading leading-snug">2 Sombreros para Impactar B2B:<br>la Compra y la Venta</h2>
+                        <p class="text-xs text-brand-muted">Autor: <strong class="text-white">Luis Felipe Meneses Faúndez</strong> · Director humanB</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== 01 · DIAGNÓSTICO =========================== -->
+        <section id="diagnostico" class="space-y-8 reveal">
+            <div class="border-b border-brand-border pb-4 flex flex-col sm:flex-row sm:items-end justify-between gap-2">
+                <div>
+                    <span class="text-xs font-mono text-brand-alert font-bold uppercase tracking-wider">01 / El Diagnóstico Operativo</span>
+                    <h2 class="text-2xl sm:text-4xl font-black font-heading text-white mt-1">El costo oculto de comprar lejos y pagar tarde</h2>
+                </div>
+                <span class="text-xs font-mono text-brand-subtle">Cada cifra incluye su fuente verificable</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bento-card rounded-2xl p-6 flex flex-col justify-between space-y-4">
+                    <div class="space-y-3">
+                        <span class="text-xs font-mono text-brand-primary font-bold uppercase">La asimetría nacional</span>
+                        <div class="text-4xl font-black font-heading text-white">98,5% <span class="text-xl text-brand-muted">vs</span> 12%</div>
+                        <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">Las MiPyMEs (Micro, Pequeñas y Medianas Empresas) representan el <strong class="text-white">98,5%</strong> de las empresas en Chile y concentran el <strong class="text-white">65,3% del empleo formal</strong>, pero participan de apenas el <strong class="text-white">12% de las ventas totales</strong>. Cuando una gran empresa las excluye, debilita el tejido económico donde viven sus propios trabajadores.</p>
+                    </div>
+                    <div class="text-[11px] font-mono text-brand-secondary border-t border-brand-border pt-3">📎 Min. de Economía (2026) y BCN en base a datos del SII [Ref. 1].</div>
+                </div>
+                <div class="bento-card rounded-2xl p-6 flex flex-col justify-between space-y-4">
+                    <div class="space-y-3">
+                        <span class="text-xs font-mono text-brand-alert font-bold uppercase">El embudo de deserción</span>
+                        <div class="text-4xl font-black font-heading text-brand-alert">Hasta 70%</div>
+                        <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">De los proveedores locales desiste en el registro corporativo porque se le exigen auditorías y certificaciones diseñadas para multinacionales. En contraste, las empresas formalizadas generan <strong class="text-white">79% más de ingresos</strong> y el <strong class="text-white">82,6% contrata personal adicional</strong>.</p>
+                    </div>
+                    <div class="text-[11px] font-mono text-brand-secondary border-t border-brand-border pt-3">📎 Auditorías de terreno humanB [Ref. 6] y estudio OIT / CNC [Ref. 2].</div>
+                </div>
+                <div class="bento-card rounded-2xl p-6 flex flex-col justify-between space-y-4">
+                    <div class="space-y-3">
+                        <span class="text-xs font-mono text-brand-secondary font-bold uppercase">Ética financiera y liquidez</span>
+                        <div class="text-4xl font-black font-heading text-brand-secondary">TPR ≤ 30 días</div>
+                        <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">El TPR (Tiempo Promedio de Pago Real) define la supervivencia de un proveedor local. Pagar a 60 o 90 días obliga a la pequeña empresa a descontar facturas perdiendo entre 5% y 10% de su margen: sobreprecio que termina pagando la gran empresa en la siguiente cotización.</p>
+                    </div>
+                    <div class="text-[11px] font-mono text-brand-secondary border-t border-brand-border pt-3">📎 Ley N.º 21.131 de Pago a 30 Días [Ref. 5] y Banco Central [Ref. 7].</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== 02 · METODOLOGÍA =========================== -->
+        <section id="metodologia" class="space-y-8 reveal">
+            <div class="border-b border-brand-border pb-4 flex flex-col sm:flex-row sm:items-end justify-between gap-2">
+                <div>
+                    <span class="text-xs font-mono text-brand-primary font-bold uppercase tracking-wider">02 / Arquitectura Metodológica</span>
+                    <h2 class="text-2xl sm:text-4xl font-black font-heading text-white mt-1">Tres herramientas prácticas en un solo manual de campo</h2>
+                </div>
+                <span class="text-xs font-mono text-brand-subtle">Aplicable en ambos sentidos: cuando compra y cuando vende</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+                <div class="bento-card rounded-2xl p-6 flex flex-col justify-between space-y-5 border-t-2 border-t-brand-primary">
+                    <div class="space-y-4">
+                        <div class="h-40 rounded-xl bg-black border border-brand-border p-4 flex items-center justify-center overflow-hidden">
+                            <img src="https://humanb.cl/wp-content/uploads/2026/11/humanb-Libro-2-Sombreros-para-Impactar-B2B.jpg" alt="Insignia 2 Sombreros para Impactar B2B" class="max-h-full w-auto object-contain" loading="lazy">
+                        </div>
+                        <span class="inline-block text-[11px] font-mono text-brand-primary font-bold uppercase">Encadenamiento productivo</span>
+                        <h3 class="text-xl font-bold font-heading text-white">2 Sombreros para Impactar B2B</h3>
+                        <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">Toda mediana o gran empresa opera como puente: compra insumos a proveedores locales y vende a grandes cadenas o al Estado. El libro entrega cuadernos de trabajo de doble vía para simplificar el ingreso de proveedores, aplicar cumplimiento proporcional y responder en menos de 48 horas.</p>
+                    </div>
+                    <div class="text-xs font-mono text-brand-secondary border-t border-brand-border pt-3">Entregable: Fichas de Demanda y Matriz de Simplificación en 5 días.</div>
+                </div>
+                <div class="bento-card rounded-2xl p-6 flex flex-col justify-between space-y-5 border-t-2 border-t-brand-alert">
+                    <div class="space-y-4">
+                        <div class="h-40 rounded-xl bg-black border border-brand-border p-4 flex items-center justify-center overflow-hidden">
+                            <img src="https://humanb.cl/wp-content/uploads/2026/11/humanB-Direccion-como-Servicio-DaaS.jpg" alt="Insignia Dirección Estratégica como Servicio DaaS" class="max-h-full w-auto object-contain" loading="lazy">
+                        </div>
+                        <span class="inline-block text-[11px] font-mono text-brand-alert font-bold uppercase">Gobernanza y criterio</span>
+                        <h3 class="text-xl font-bold font-heading text-white">Dirección Estratégica como Servicio (DaaS)</h3>
+                        <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">Permite que la gerencia general salga de la operación de urgencia y decida con criterio de directorio. Instala reglas claras de modularización del riesgo para que compras, finanzas y fiscalía dejen de frenar negocios locales rentables.</p>
+                    </div>
+                    <div class="text-xs font-mono text-brand-secondary border-t border-brand-border pt-3">Entregable: Protocolo de Gobernanza y evaluación de Costo Total (TCO).</div>
+                </div>
+                <div class="bento-card rounded-2xl p-6 flex flex-col justify-between space-y-5 border-t-2 border-t-brand-secondary">
+                    <div class="space-y-4">
+                        <div class="h-40 rounded-xl bg-black border border-brand-border p-4 flex items-center justify-center overflow-hidden">
+                            <img src="https://humanb.cl/wp-content/uploads/2026/11/humanB-ProductPeople-Led-Growth.jpg" alt="Insignia Product+People Led Growth" class="max-h-full w-auto object-contain" loading="lazy">
+                        </div>
+                        <span class="inline-block text-[11px] font-mono text-brand-secondary font-bold uppercase">Crecimiento transversal</span>
+                        <h3 class="text-xl font-bold font-heading text-white">Product+People Led Growth</h3>
+                        <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">Rompe los compartimentos aislados entre ventas, compras, operaciones y personas. Cuando el producto resuelve un dolor operativo real y el equipo trabaja con dignidad y reglas claras, la recomendación y la recompra ocurren sin desgaste comercial.</p>
+                    </div>
+                    <div class="text-xs font-mono text-brand-secondary border-t border-brand-border pt-3">Entregable: Indicadores Espejo (Tasa de Aceleración y Satisfacción NSS).</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== 03 · IMPACTO =========================== -->
+        <section id="impacto" class="bento-card rounded-2xl p-7 sm:p-10 space-y-8 reveal">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                <div class="lg:col-span-7 space-y-4">
+                    <span class="text-xs font-mono text-brand-secondary font-bold uppercase tracking-wider">03 / Impacto medible para su reporte corporativo</span>
+                    <h2 class="text-2xl sm:text-4xl font-black font-heading text-white leading-tight">De la responsabilidad social cosmética al retorno económico verificable</h2>
+                    <p class="text-sm text-brand-muted leading-relaxed">Más del <strong class="text-white">90% de los inversionistas</strong> vincula hoy la inversión con propósito a la generación simultánea de retorno financiero e impacto social y ambiental verificable [Ref. 4]. Asociar su marca a esta publicación respalda sus metas ESG (Ambientales, Sociales y de Gobernanza) con datos auditables en la operación real.</p>
+                    <div class="text-[11px] font-mono text-brand-subtle">Fuentes: Civic Economics / AMIBA [Ref. 3] y CEFIS UAI [Ref. 4].</div>
+                </div>
+                <div class="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4 font-mono">
+                    <div class="p-5 rounded-xl bg-black border border-brand-primary/60 flex items-center justify-between">
+                        <div>
+                            <div class="text-xs text-brand-primary font-bold uppercase">Compra local</div>
+                            <div class="text-xs text-brand-muted mt-1">Circula de 3 a 5 veces en el territorio</div>
+                        </div>
+                        <div class="text-4xl font-black text-brand-primary">68%</div>
+                    </div>
+                    <div class="p-5 rounded-xl bg-black border border-brand-border flex items-center justify-between">
+                        <div>
+                            <div class="text-xs text-brand-subtle font-bold uppercase">Compra centralizada</div>
+                            <div class="text-xs text-brand-subtle mt-1">Fuga inmediata de capital fuera de la región</div>
+                        </div>
+                        <div class="text-4xl font-black text-brand-subtle">14%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== 04 · NIVELES (RETURN MATRIX) =========================== -->
+        <section id="niveles" class="space-y-8 reveal">
+            <div class="border-b border-brand-border pb-4 flex flex-col sm:flex-row sm:items-end justify-between gap-2">
+                <div>
+                    <span class="text-xs font-mono text-brand-alert font-bold uppercase tracking-wider">04 / Niveles de Auspicio — Etapa 1 (Libro impreso)</span>
+                    <h2 class="text-2xl sm:text-4xl font-black font-heading text-white mt-1">Aporte hoy y reciba más del 145% en valor tangible</h2>
+                </div>
+                <span class="text-xs font-mono text-brand-secondary font-bold">Valores en dólares (USD) · Cupos limitados al cierre de imprenta</span>
+            </div>
+
+            <div class="p-4 rounded-xl bg-brand-elevated border border-brand-border flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs font-mono">
+                <span class="text-white">💡 <strong>Criterio de retorno inmediato:</strong> cada auspicio se retribuye con talleres aplicados para su organización (equipo, proveedores o clientes) + ejemplares impresos y licencias digitales, por un valor superior a su aporte.</span>
+                <span class="text-brand-primary shrink-0">Cupos limitados</span>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch">
+
+                <!-- CANELO -->
+                <div class="bento-card rounded-2xl p-7 flex flex-col justify-between space-y-6 border-t-4 border-t-brand-secondary">
+                    <div class="space-y-5">
+                        <div class="flex items-center justify-between font-mono text-xs">
+                            <span class="text-brand-secondary font-bold uppercase">Nivel Canelo</span>
+                            <span class="text-[11px] bg-brand-elevated border border-brand-border px-2.5 py-0.5 rounded text-brand-muted">5 cupos</span>
+                        </div>
+                        <!-- Caja de retorno tangible -->
+                        <div class="rounded-xl bg-black border border-brand-secondary/50 p-4 font-mono text-xs space-y-1.5">
+                            <div class="flex justify-between items-center"><span class="text-brand-subtle">Su aporte</span><span class="text-white font-black text-lg">USD $2.700</span></div>
+                            <div class="flex justify-between items-center"><span class="text-brand-secondary">Valor que recibe</span><span class="text-brand-secondary font-black text-lg">USD $4.000</span></div>
+                            <div class="text-[11px] text-brand-muted pt-1.5 border-t border-brand-border">Retorno tangible = <strong class="text-brand-secondary">148% de su aporte</strong></div>
+                        </div>
+                        <p class="text-xs text-brand-muted leading-relaxed">Ideal para empresas que desean entrenar a su equipo interno o red de proveedores y entregar ejemplares oficiales como regalo corporativo.</p>
+                        <ul class="space-y-2.5 text-xs text-brand-muted pt-1 border-t border-brand-border">
+                            <li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">✓</span><span><strong class="text-white">1 Taller Ejecutivo cerrado</strong> de 2 h para su equipo, proveedores o clientes <em>(USD $3.000)</em>.</span></li>
+                            <li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">✓</span><span><strong class="text-white">20 ejemplares impresos</strong> a USD $25 c/u <em>(USD $500)</em>.</span></li>
+                            <li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">✓</span><span><strong class="text-white">20 licencias digitales</strong> con cuaderno editable <em>(USD $500)</em>.</span></li>
+                            <li class="flex items-start gap-2"><span class="text-brand-primary font-bold">+</span><span>Logotipo en la página de <strong class="text-white">Auspiciadores Fundadores</strong> y difusión en el lanzamiento.</span></li>
+                        </ul>
+                    </div>
+                    <button onclick="abrirReserva('Nivel Canelo','USD $2.700','USD $4.000 — 1 Taller Ejecutivo + 20 libros impresos + 20 licencias digitales')" class="w-full py-3 rounded-xl bg-brand-elevated border border-brand-border hover:border-brand-secondary hover:bg-brand-secondary hover:text-black text-white font-mono text-xs font-bold transition-colors">Reservar Nivel Canelo →</button>
+                </div>
+
+                <!-- ROBLE (destacado) -->
+                <div class="bento-featured rounded-2xl p-7 flex flex-col justify-between space-y-6 relative">
+                    <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-brand-primary text-white font-mono text-[10px] font-bold px-3.5 py-1 rounded-full uppercase tracking-wider whitespace-nowrap">Mayor retorno operativo</div>
+                    <div class="space-y-5">
+                        <div class="flex items-center justify-between font-mono text-xs">
+                            <span class="text-brand-primary font-bold uppercase">Nivel Roble</span>
+                            <span class="text-[11px] bg-brand-primary/15 border border-brand-primary/40 px-2.5 py-0.5 rounded text-brand-primary font-bold">3 cupos</span>
+                        </div>
+                        <div class="rounded-xl bg-black border border-brand-primary/60 p-4 font-mono text-xs space-y-1.5">
+                            <div class="flex justify-between items-center"><span class="text-brand-subtle">Su aporte</span><span class="text-white font-black text-lg">USD $6.300</span></div>
+                            <div class="flex justify-between items-center"><span class="text-brand-primary">Valor que recibe</span><span class="text-brand-primary font-black text-lg">USD $9.500</span></div>
+                            <div class="text-[11px] text-brand-muted pt-1.5 border-t border-brand-border">Retorno tangible = <strong class="text-brand-primary">151% de su aporte</strong></div>
+                        </div>
+                        <p class="text-xs text-brand-muted leading-relaxed">Para compañías que buscan intervenir su proceso de abastecimiento y posicionarse como referentes de encadenamiento productivo.</p>
+                        <ul class="space-y-2.5 text-xs text-brand-muted pt-1 border-t border-brand-border">
+                            <li class="flex items-start gap-2"><span class="text-brand-primary font-bold">✓</span><span><strong class="text-white">2 Talleres Ejecutivos</strong>: uno de compras/ventas internas y otro para proveedores o clientes <em>(USD $6.000)</em>.</span></li>
+                            <li class="flex items-start gap-2"><span class="text-brand-primary font-bold">✓</span><span><strong class="text-white">1 Diagnóstico del embudo de alta</strong> de proveedores (tiempos de alta y pago) <em>(USD $1.000)</em>.</span></li>
+                            <li class="flex items-start gap-2"><span class="text-brand-primary font-bold">✓</span><span><strong class="text-white">50 ejemplares impresos</strong> a USD $25 c/u <em>(USD $1.250)</em>.</span></li>
+                            <li class="flex items-start gap-2"><span class="text-brand-primary font-bold">✓</span><span><strong class="text-white">50 licencias digitales</strong> del libro <em>(USD $1.250)</em>.</span></li>
+                            <li class="flex items-start gap-2"><span class="text-brand-primary font-bold">+</span><span>Logotipo en <strong class="text-white">contraportada</strong>, página interior y caso de estudio o mención en prensa.</span></li>
+                        </ul>
+                    </div>
+                    <button onclick="abrirReserva('Nivel Roble','USD $6.300','USD $9.500 — 2 Talleres + Diagnóstico de embudo + 50 libros impresos + 50 licencias digitales')" class="w-full py-3.5 rounded-xl bg-brand-primary hover:bg-brand-primary/85 text-white font-mono text-xs font-bold transition-colors shadow-lg shadow-brand-primary/25">Asegurar Nivel Roble →</button>
+                </div>
+
+                <!-- ALERCE -->
+                <div class="bento-card rounded-2xl p-7 flex flex-col justify-between space-y-6 border-t-4 border-t-brand-alert">
+                    <div class="space-y-5">
+                        <div class="flex items-center justify-between font-mono text-xs">
+                            <span class="text-brand-alert font-bold uppercase">Nivel Alerce · Anfitrión</span>
+                            <span class="text-[11px] bg-brand-alert/15 border border-brand-alert/40 px-2.5 py-0.5 rounded text-brand-alert font-bold">1 cupo único</span>
+                        </div>
+                        <div class="rounded-xl bg-black border border-brand-alert/50 p-4 font-mono text-xs space-y-1.5">
+                            <div class="flex justify-between items-center"><span class="text-brand-subtle">Su aporte</span><span class="text-white font-black text-lg">USD $12.600</span></div>
+                            <div class="flex justify-between items-center"><span class="text-brand-alert">Valor que recibe</span><span class="text-brand-alert font-black text-lg">USD $19.500</span></div>
+                            <div class="text-[11px] text-brand-muted pt-1.5 border-t border-brand-border">Retorno tangible = <strong class="text-brand-alert">155% de su aporte</strong></div>
+                        </div>
+                        <p class="text-xs text-brand-muted leading-relaxed">Alianza exclusiva de cabecera para una organización líder que desee co-protagonizar el lanzamiento nacional y transformar su cadena de valor.</p>
+                        <ul class="space-y-2.5 text-xs text-brand-muted pt-1 border-t border-brand-border">
+                            <li class="flex items-start gap-2"><span class="text-brand-alert font-bold">✓</span><span><strong class="text-white">Semana Intensiva de Simplificación (5 días)</strong> o Conferencia Magistral + 2 Talleres con Luis Felipe Meneses <em>(USD $12.000)</em>.</span></li>
+                            <li class="flex items-start gap-2"><span class="text-brand-alert font-bold">✓</span><span><strong class="text-white">150 ejemplares impresos</strong> edición especial a USD $25 c/u <em>(USD $3.750)</em>.</span></li>
+                            <li class="flex items-start gap-2"><span class="text-brand-alert font-bold">✓</span><span><strong class="text-white">150 licencias digitales</strong> para toda su red de proveedores <em>(USD $3.750)</em>.</span></li>
+                            <li class="flex items-start gap-2"><span class="text-brand-primary font-bold">+</span><span><strong class="text-white">Prólogo firmado</strong> por su Gerente General, sello en portada/lomo y anfitrión del evento de lanzamiento.</span></li>
+                        </ul>
+                    </div>
+                    <button onclick="abrirReserva('Nivel Alerce (Anfitrión Exclusivo)','USD $12.600','USD $19.500 — Semana Intensiva 5 días / Conferencia + 150 libros impresos + 150 licencias + Prólogo del Gerente General')" class="w-full py-3 rounded-xl bg-brand-alert/15 hover:bg-brand-alert text-brand-alert hover:text-white border border-brand-alert/40 font-mono text-xs font-bold transition-colors">Solicitar exclusividad Alerce →</button>
+                </div>
+            </div>
+
+            <!-- Etapa 2 -->
+            <div class="p-4 rounded-xl bg-brand-elevated border border-brand-border flex flex-col sm:flex-row items-start sm:items-center gap-4 text-xs">
+                <span class="px-2.5 py-1 rounded bg-black border border-brand-border font-mono text-[11px] text-brand-secondary font-bold shrink-0 self-start">ETAPA 2 · HOJA DE RUTA FUTURA</span>
+                <span class="text-brand-muted">El aporte actual financia íntegramente la <strong class="text-white">edición e impresión del libro físico y digital</strong>. Como beneficio adicional sin costo extra, los auspiciadores fundadores tendrán <strong class="text-white">acceso prioritario</strong> cuando se publique la futura <strong class="text-white">Mini App asistida con Inteligencia Artificial</strong> (calculadoras de pago, fichas comerciales y diagnóstico de trámites).</span>
+            </div>
+        </section>
+
+        <!-- =========================== 05 · FUENTES + AUTOR =========================== -->
+        <section id="fuentes" class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch reveal">
+            <div class="lg:col-span-7 bento-card rounded-2xl p-7 space-y-4">
+                <div class="space-y-1">
+                    <span class="text-xs font-mono text-brand-primary font-bold uppercase">05 / Trazabilidad y fuentes</span>
+                    <h3 class="text-xl font-bold font-heading text-white">Origen verificable de los datos citados</h3>
+                </div>
+                <ol class="space-y-2.5 text-xs text-brand-muted leading-relaxed">
+                    <li><strong class="text-white">[Ref. 1]</strong> Ministerio de Economía, Fomento y Turismo (Chile, 2026) &amp; Biblioteca del Congreso Nacional (BCN): participación MiPyMEs (98,5% empresas · 65,3% empleo formal · ~12% ventas, base SII). <a href="https://www.economia.gob.cl/wp-content/uploads/2026/02/10-03-26-mipymes-y-emprendimiento.pdf" target="_blank" rel="noopener noreferrer" class="text-brand-primary underline">Ver ↗</a></li>
+                    <li><strong class="text-white">[Ref. 2]</strong> OIT &amp; Cámara Nacional de Comercio (CNC): estudio <em>"Otra cosa es con boleta"</em> (79% más ingresos y 82,6% de contratación en pymes formalizadas). <a href="https://www.ilo.org/es/resource/news/otra-cosa-es-con-boleta-la-formalizacion-como-motor-de-desarrollo" target="_blank" rel="noopener noreferrer" class="text-brand-primary underline">Ver ↗</a></li>
+                    <li><strong class="text-white">[Ref. 3]</strong> Civic Economics / American Independent Business Alliance (AMIBA): <em>"The Local Multiplier Effect"</em> (retorno de 3 a 5 veces; retención local 68% vs 14%). <a href="https://amiba.net/local-multiplier/" target="_blank" rel="noopener noreferrer" class="text-brand-primary underline">Ver ↗</a></li>
+                    <li><strong class="text-white">[Ref. 4]</strong> CEFIS, Universidad Adolfo Ibáñez: <em>Mapeo de Inversiones Sociales</em> (&gt;90% de inversionistas vincula impacto con retorno financiero). <a href="https://cefis.uai.cl/mapeofilantropia/inversionistas.php" target="_blank" rel="noopener noreferrer" class="text-brand-primary underline">Ver ↗</a></li>
+                    <li><strong class="text-white">[Ref. 5]</strong> Ley N.º 21.131 (Ley de Pago a 30 Días, Chile): plazo máximo legal de 30 días corridos. <a href="https://www.bcn.cl/leychile/navegar?idNorma=1149834" target="_blank" rel="noopener noreferrer" class="text-brand-primary underline">Ver ↗</a></li>
+                    <li><strong class="text-white">[Ref. 6]</strong> Auditorías y Encuentros CompraLocal humanB (Los Ríos 2025 con Telsur · Araucanía 2026 con Corparaucanía e IncubatecUFRO): deserción por burocracia hasta 70% y TPR ≤ 30 días.</li>
+                    <li><strong class="text-white">[Ref. 7]</strong> Banco Central de Chile: dinámica y mortalidad temprana de empresas por restricción de liquidez.</li>
+                </ol>
+            </div>
+
+            <div class="lg:col-span-5 bento-card rounded-2xl p-7 flex flex-col justify-between space-y-6">
+                <div class="space-y-4">
+                    <span class="text-xs font-mono text-brand-alert font-bold uppercase">Cierre ejecutivo · sin intermediarios</span>
+                    <blockquote class="text-sm sm:text-base text-white font-medium italic leading-relaxed border-l-2 border-brand-primary pl-4">"Las ideas que no se ejecutan son papeles pegados en la pared. Si su empresa quiere dejar de administrar la rutina y blindar su cadena de valor con hechos medibles, conversemos."</blockquote>
+                </div>
+                <div class="flex items-center gap-4 border-t border-brand-border pt-4">
+                    <img src="https://humanb.cl/wp-content/uploads/2026/06/Foto-perfil1.jpg" alt="Luis Felipe Meneses Faúndez — Autor y Director de humanB" width="64" height="64" class="w-16 h-16 rounded-xl object-cover object-top border border-brand-border grayscale contrast-125" loading="lazy" onerror="this.style.display='none';">
+                    <div class="space-y-0.5">
+                        <div class="text-sm font-bold text-white font-heading">Luis Felipe Meneses Faúndez</div>
+                        <div class="text-xs text-brand-secondary font-mono">Autor · Director de humanB</div>
+                        <div class="text-[11px] text-brand-subtle font-mono">luisfelipe@humanb.cl · humanb.cl</div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 font-mono text-xs">
+                    <a href="https://wa.me/56976696431?text=Hola%20Luis%20Felipe,%20revis%C3%A9%20el%20portal%20de%20auspicios%20del%20libro%202%20Sombreros%20para%20Impactar%20B2B%20y%20me%20interesa%20conversar." target="_blank" rel="noopener noreferrer" class="py-3 px-4 rounded-xl bg-brand-primary hover:bg-brand-primary/85 text-white font-bold text-center transition-colors">WhatsApp directo</a>
+                    <a href="mailto:luisfelipe@humanb.cl?subject=Inter%C3%A9s%20Auspicio%20Libro%202%20Sombreros%20para%20Impactar%20B2B" class="py-3 px-4 rounded-xl bg-brand-elevated border border-brand-border hover:border-white text-white font-bold text-center transition-colors">Enviar correo</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========================== FOOTER =========================== -->
+    <footer class="border-t border-brand-border bg-black py-8 px-6 text-xs font-mono text-brand-muted relative z-10">
+        <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <span class="font-logo text-2xl text-white">humanB</span>
+                <span class="text-brand-subtle">© 2026 humanB · 2 Sombreros para Impactar B2B: la Compra y la Venta</span>
+            </div>
+            <div class="flex items-center gap-5">
+                <a href="https://humanb.cl" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">humanb.cl ↗</a>
+                <a href="https://humanb.cl/autor/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Sobre el autor ↗</a>
+                <a href="mailto:luisfelipe@humanb.cl" class="text-brand-primary hover:text-white transition-colors">luisfelipe@humanb.cl</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- =========================== MODAL RESERVA =========================== -->
+    <div id="modalReserva" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden items-center justify-center p-4">
+        <div class="bento-featured max-w-lg w-full rounded-2xl p-6 sm:p-8 space-y-5 relative">
+            <div class="flex items-start justify-between gap-4 border-b border-brand-border pb-3">
+                <div>
+                    <span class="text-[11px] font-mono text-brand-primary font-bold uppercase">Reserva de cupo editorial</span>
+                    <h3 id="modalTitulo" class="text-xl font-black font-heading text-white mt-1">Nivel seleccionado</h3>
+                </div>
+                <button onclick="cerrarReserva()" class="text-brand-subtle hover:text-white font-bold text-lg px-2">✕</button>
+            </div>
+            <div class="p-4 rounded-xl bg-black border border-brand-border font-mono text-xs space-y-2">
+                <div class="flex justify-between"><span class="text-brand-subtle">Su aporte:</span><strong id="modalMonto" class="text-white">USD $0</strong></div>
+                <div class="space-y-1 pt-1 border-t border-brand-border">
+                    <span class="text-brand-subtle block">Retorno tangible incluido:</span>
+                    <strong id="modalRetorno" class="text-brand-secondary block leading-relaxed"></strong>
+                </div>
+            </div>
+            <p class="text-xs text-brand-muted leading-relaxed">El bloqueo del cupo se formaliza por orden de compra o acuerdo directo con Luis Felipe Meneses, para integrar su logotipo antes del cierre de imprenta y agendar los talleres.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 font-mono text-xs">
+                <a id="btnModalWa" href="#" target="_blank" rel="noopener noreferrer" class="py-3.5 rounded-xl bg-brand-primary hover:bg-brand-primary/85 text-white font-bold text-center transition-colors">Confirmar por WhatsApp →</a>
+                <a id="btnModalMail" href="#" class="py-3.5 rounded-xl bg-brand-elevated border border-brand-border hover:border-white text-white font-bold text-center transition-colors">Solicitar orden por correo</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function abrirReserva(nivel, monto, retorno) {
+            document.getElementById('modalTitulo').innerText = 'Auspicio ' + nivel;
+            document.getElementById('modalMonto').innerText = monto;
+            document.getElementById('modalRetorno').innerText = retorno;
+            var wa = encodeURIComponent('Hola Luis Felipe, quiero reservar el ' + nivel + ' (' + monto + ') para auspiciar el libro "2 Sombreros para Impactar B2B: la Compra y la Venta".');
+            document.getElementById('btnModalWa').href = 'https://wa.me/56976696431?text=' + wa;
+            var asunto = encodeURIComponent('Reserva ' + nivel + ' — Libro 2 Sombreros para Impactar B2B');
+            var cuerpo = encodeURIComponent('Estimado Luis Felipe,\n\nSolicitamos reservar el ' + nivel + ' (' + monto + ') de la Etapa 1 (Edición, Impresión y Lanzamiento) del libro "2 Sombreros para Impactar B2B: la Compra y la Venta".\n\nRetorno asociado: ' + retorno + '.\n\nQuedamos atentos para coordinar el envío de nuestro logotipo y la programación de los talleres.\n\nSaludos.');
+            document.getElementById('btnModalMail').href = 'mailto:luisfelipe@humanb.cl?subject=' + asunto + '&body=' + cuerpo;
+            var m = document.getElementById('modalReserva');
+            m.classList.remove('hidden'); m.classList.add('flex');
+        }
+        function cerrarReserva() {
+            var m = document.getElementById('modalReserva');
+            m.classList.add('hidden'); m.classList.remove('flex');
+        }
+        document.getElementById('modalReserva').addEventListener('click', function(e){ if (e.target === this) cerrarReserva(); });
+        document.addEventListener('keydown', function(e){ if (e.key === 'Escape') cerrarReserva(); });
+
+        // Reveal on scroll (con fail-safe)
+        (function(){
+            var els = Array.prototype.slice.call(document.querySelectorAll('.reveal'));
+            if (!('IntersectionObserver' in window)) { els.forEach(function(el){ el.classList.add('in'); }); return; }
+            var io = new IntersectionObserver(function(entries){
+                entries.forEach(function(en){ if (en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+            }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+            els.forEach(function(el){ io.observe(el); });
+            // Fail-safe: si algo no dispara, revelar lo visible
+            setTimeout(function(){ els.forEach(function(el){ var r = el.getBoundingClientRect(); if (r.top < window.innerHeight) el.classList.add('in'); }); }, 900);
+        })();
+    </script>
+</body>
+</html>

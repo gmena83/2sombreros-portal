@@ -1,0 +1,5 @@
+# Configuracion Netlify - sitio estatico (sin proceso de build)
+# El contenido publicado es la carpeta dist/ (dist/index.html = portal de auspicios en produccion)
+[build]
+  publish = "dist"
+  command = ""
